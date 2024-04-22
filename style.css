@@ -7,9 +7,9 @@ body {
     position: absolute;
     left: 780px;
     top: 100px;
-    background-color: rgb(251, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
     padding: 50px 100px;
-    border: 10px solid rgb(0, 0, 0);
+    border: 10px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
     color: rgb(255, 255, 255);
     font-size: 90px;
@@ -18,11 +18,23 @@ body {
  .market-button {
     position: absolute;
     left: 780px;
-    top: 400px;
-    background-color: green;
+    top: 250px;
+    background-color: rgba(0, 128, 0, 0);
  padding: 50px 100px;
-border: 10px solid lime;
+border: 10px solid rgba(0, 255, 0, 0);
 border-radius: 5px;
- color: red;
+ color: rgb(255, 255, 255);
+ font-size: 90px;
+ cursor: pointer;}
+ 
+ .pox-button {
+    position: absolute;
+    left: 780px;
+    top: 400px;
+    background-color: rgba(0, 128, 0, 0);
+ padding: 50px 100px;
+border: 10px solid rgba(0, 255, 0, 0);
+border-radius: 5px;
+ color: rgb(255, 255, 255);
  font-size: 90px;
  cursor: pointer;}

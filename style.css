@@ -15,14 +15,14 @@ body {
     font-size: 90px;
     cursor: pointer;}
 
-    .market-button {
-        position: absolute;
-        left: 780px;
-        top: 100px;
-        background-color: green;
-        padding: 50px 100px;
-        border: 10px solid lime;
-        border-radius: 5px;
-        color: red;
-        font-size: 90px;
-        cursor: pointer;}
+ .market-button {
+    position: absolute;
+    left: 780px;
+    top: 100px;
+    background-color: green;
+ padding: 50px 100px;
+border: 10px solid lime;
+border-radius: 5px;
+ color: red;
+ font-size: 90px;
+ cursor: pointer;}

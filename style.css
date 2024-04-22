@@ -1,40 +1,43 @@
 body {
-    background: rgb(0,76,148);
-    background: linear-gradient(90deg, rgba(0,76,148,1) 7%, rgba(117,6,110,1) 49%, rgba(255,234,12,1) 100%);
+   background: rgb(0, 76, 148);
+   background: linear-gradient(90deg, rgba(0, 76, 148, 1) 7%, rgba(117, 6, 110, 1) 49%, rgba(255, 234, 12, 1) 100%);
 }
 
 .game-button {
-    position: absolute;
-    left: 780px;
-    top: 100px;
-    background-color: rgba(255, 255, 255, 0);
-    padding: 50px 100px;
-    border: 10px solid rgba(0, 0, 0, 0);
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
-    font-size: 90px;
-    cursor: pointer;}
+   position: absolute;
+   left: 780px;
+   top: 100px;
+   background-color: rgba(255, 255, 255, 0);
+   padding: 50px 100px;
+   border: 10px solid rgba(0, 0, 0, 0);
+   border-radius: 5px;
+   color: rgb(255, 255, 255);
+   font-size: 90px;
+   cursor: pointer;
+}
 
- .market-button {
-    position: absolute;
-    left: 780px;
-    top: 250px;
-    background-color: rgba(0, 128, 0, 0);
- padding: 50px 100px;
-border: 10px solid rgba(0, 255, 0, 0);
-border-radius: 5px;
- color: rgb(255, 255, 255);
- font-size: 90px;
- cursor: pointer;}
- 
- .pox-button {
-    position: absolute;
-    left: 780px;
-    top: 400px;
-    background-color: rgba(0, 128, 0, 0);
- padding: 50px 100px;
-border: 10px solid rgba(0, 255, 0, 0);
-border-radius: 5px;
- color: rgb(255, 255, 255);
- font-size: 90px;
- cursor: pointer;}
+.market-button {
+   position: absolute;
+   left: 780px;
+   top: 250px;
+   background-color: rgba(0, 128, 0, 0);
+   padding: 50px 100px;
+   border: 10px solid rgba(0, 255, 0, 0);
+   border-radius: 5px;
+   color: rgb(255, 255, 255);
+   font-size: 90px;
+   cursor: pointer;
+}
+
+.pox-button {
+   position: absolute;
+   left: 780px;
+   top: 400px;
+   background-color: rgba(0, 128, 0, 0);
+   padding: 50px 100px;
+   border: 10px solid rgba(0, 255, 0, 0);
+   border-radius: 5px;
+   color: rgb(255, 255, 255);
+   font-size: 90px;
+   cursor: pointer;
+}

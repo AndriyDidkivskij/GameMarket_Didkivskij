@@ -1,0 +1,17 @@
+body {
+    background: rgb(113,204,0);
+    background: linear-gradient(90deg, rgba(113,204,0,1) 0%, rgba(142,168,0,1) 23%, rgba(255,190,0,1) 51%, rgba(255,220,0,1) 100%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+   gap: 25px;
+
+
+
+  }
+  div{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: yellow;
+    br: 5px;
+    font-size: 50px;
+}

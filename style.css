@@ -18,3 +18,22 @@ body {
    max-height: 20%;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px; /* Отступ сверху */
+}
+
+.btn-group-vertical {
+  margin-right: 0px; /* Отступ справа от кнопок */
+}
+
+.font-monospace {
+  font-family: monospace;
+  color: rgb(231, 0, 0); /* Білий колір тексту */
+}
+
+.image-and-text img {
+  max-width: 5%; /* Максимальная ширина изображения */
+}

@@ -1,4 +1,5 @@
  <!-- Блок з оплатою частинами -->
+             <div> <img src="img-market/1.png" ></div>
                 <div class="parts-pay">
                     <div> <img src="img-market/mono-lapka.png" alt="">6</div>
                     <div> <img src="img-market/pb.png" alt="">8</div>

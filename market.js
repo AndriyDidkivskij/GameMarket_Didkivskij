@@ -42,14 +42,18 @@ if (itemsDiv) {
     // for (let i = 0; i < 100; i++) {
     //     itemsDiv.innerHTML += '<div class = item></div>'
     // }
+    let itemsDiv = document.getElementById("items")
+    if (itemsDiv){
     //Виведення елементів масиву
     itemsArray.forEach((item, index) => {
-        // console.log(item)
-        // itemsDiv.innerText += item
-        // itemsDiv.innerHTML += `<div class = "item">${item}</div>`
-        //Виводимо на веб сторінку елемент масиву в блок з класом item
+    // console.log(item)
+    // itemsDiv.innerText += item
+     itemsDiv.innerHTML += `<div class = "item">${item}</div>`
+    //Виводимо на веб сторінку елемент масиву в блок з класом item
+
+})
+    }
     
-    })
 } else {
     //Вивід повідомлення про не знайдений блок
     console.log('Блок товарів не знайдено')

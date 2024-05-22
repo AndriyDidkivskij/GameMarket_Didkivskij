@@ -4,21 +4,57 @@
 //Визначення масиву товарів
 let itemsArray = [
     {
-        firstname: "Віталій",
-        lastname: "Шатківській",
-        age: 43,
-        subject: "CS",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
-        url:"https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/",
+        title:"Мотокоса 43",
+        image:'img/1.webp',
+        mono: 4,
+        pb: 8,
+        prise_standart: 5499,
+        prise_discount:4497,
+        prise_coupon:4395,
     },
     {
-        firstname: "Віталій",
-        lastname: "Шатківській",
-        age: 43,
-        subject: "CS",
-        photo:"",
-        url:"",
-    }
+        title:"Електричний тример 110",
+        image:'img/2.webp',
+        mono: 5,
+        pb: 10,
+        prise_standart:4497,
+        prise_discount:3498,
+        prise_coupon:3396,
+    },
+    {
+        title:"Електрична газонокосарка 32",
+        image:'img/3.webp',
+        mono: 8,
+        pb: 11,
+        prise_standart:4497,
+        prise_discount:3297,
+        prise_coupon:3185,
+    },
+    {
+        title:"Акумуляторний оприскувач 12 N",
+        image:'img/4.webp',
+        mono: 6,
+        pb: 12,
+        prise_standart:2190,
+        prise_discount:1698,
+        prise_coupon:1596,
+    },
+//     {
+//         firstname: "Віталій",
+//         lastname: "Шатківській",
+//         age: 43,
+//         subject: "CS",
+//         photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
+//         url:"https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/",
+//     },
+//     {
+//         firstname: "Віталій",
+//         lastname: "Шатківській",
+//         age: 43,
+//         subject: "CS",
+//         photo:"",
+//         url:"",
+//     }
 ]
 
 // Отримання елементу з ідентифікатором items
@@ -52,14 +88,37 @@ if (itemsDiv) {
     // }
     let itemsDiv = document.getElementById("items")
     if (itemsDiv){
-    //Виведення елементів масиву
-    itemsArray.forEach((item, index) => {
-    // console.log(item)
-    // itemsDiv.innerText += item
-     itemsDiv.innerHTML += `<div class = "item">${item}</div>`
-    //Виводимо на веб сторінку елемент масиву в блок з класом item
+     //creating blocks by quantity of elements
+     itemsArray
+     //sorting by lastnames
+     //.sort((a,b) => a.lastName.localeCompare(b.lastName))
+     //
+         .forEach((item,index) => (
+             //виводимо 
+             itemsDiv.innerHTML +=
+             `
+             <div class="item">
+                 <div class="item-title">${item.title}</div>
+                 <div class="item-image">
+                     <img src="${item.image}" alt="${item.name}">
+                 </div>
+                 <div class="parts-pay">
+                     <div><img src="img/monolapka.png" alt="">${item.mono}</div>
+                     <div><img src="img/pb.jpg" alt="">${item.pb}</div>
+                 </div>
+                 <div class="price">
+                     <div><span>${item.prise_standart}</span><sup>грн</sup></div>
+                     <div><span>${item.prise_discount}</span><sup>грн</sup></div>
+                 </div>
+                 <div class="price bonus">
+                     <div>Ціна за купоном</div>
+                     <div><span>${item.prise_coupon}</span><sup>грн</sup></div>
+                 </div>
+             </div>
+ 
+             `
+         ))
 
-})
     }
     
 } else {

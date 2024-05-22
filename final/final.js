@@ -47,14 +47,22 @@ let itemsArray = [
 //         photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
 //         url:"https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/",
 //     },
-//     {
-//         firstname: "Віталій",
-//         lastname: "Шатківській",
-//         age: 43,
-//         subject: "CS",
-//         photo:"",
-//         url:"",
-//     }
+
+//     firstName: "Олена",
+//     lastName: "Геча",
+//     age:18,
+//     subject:"Історія",
+//     photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hecha-olena-anatoliyivna-683x1024.jpg",
+//     url:"https://lyceum.ztu.edu.ua/team/hecha-o-a/",
+//    },
+//    {
+//     firstName: "Вікторія",
+//     lastName: "Нелипович",
+//     age: 18,
+//     subject:"Математика",
+//     photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna-683x1024.jpg",
+//     url:"https://lyceum.ztu.edu.ua/team/nelypovych-viktoriya-vitaliyivna/",
+//    },
 ]
 
 // Отримання елементу з ідентифікатором items
